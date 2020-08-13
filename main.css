@@ -1,0 +1,89 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+.transparent{
+    background: rgba(0,0,0,0.5);
+}
+
+.nav-link{
+    color: #F15025!important;
+    font-size: 2rem;
+}
+.banner-center{
+    background: url(../photos/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-center{
+    height: 100vh;
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    /* justify-content:center moves element to center X-axis */
+    justify-content: center;
+}
+
+.banner-center a {
+    text-decoration: none;
+    font-size: 2rem;
+    border: 3px solid whitesmoke;
+    /* border-size:3px;
+    border-style: solid;
+    border-color:whitesmoke; */
+    color: whitesmoke;
+    display: inline-block;
+    width: 200px;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.banner-center a:hover,
+.banner-center a:focus{
+    color:#F15025;
+    background-color: whitesmoke;
+}
+
+.banner-underline{
+    width: 30%;
+    height: 5px;
+}
+
+.bg{
+    background-color: #F15025;
+}
+
+.bgg{
+    background-color: #2D3142;
+}
+
+#skills a:hover,
+#skills a:focus{
+    background-color: #CED0CE;
+    color: whitesmoke;
+}
+
+.about-image{
+    background: url(../photos/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* parallax affects */
+    background-attachment: fixed;
+
+    border-bottom: 37.5rem solid transparent;
+    border-left: 100px solid #2D3142;
+
+}
+
+.height-80{
+    min-height: 80vh;
+}
+
+.bgf{
+    background-color: #353531;
+}
+
